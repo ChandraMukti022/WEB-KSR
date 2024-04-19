@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+    font-family: 'Poppins', sans serif;
+    position: Static ;
+  
+}
+
+
+/* Navbar */
+.navbar{
+    background: linear-gradient(90deg, #C50000, #5F0000);
+    font-family: 'Poppins', sans serif;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.nav-item .nav-link{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    padding-right: 100px;
+}
+
+/* Current Page "Home > Berita" */
+#hero{
+    background-color: #EEEEEE;
+    background-position: center;
+    height: 86px;
+    margin-bottom: 50px;
+}
+
+.hero-title{
+    padding-top: 28px;
+}
+
+.hero-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #67676e;
+}
+
+.content-card {
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  
+} 
+
+  .content-card .container-1 {
+    display: flex;
+  
+    box-sizing: border-box;
+   
+  }
+  
+  .content-card .group-1 {
+   
+    margin-right: 130px;
+    width: 600px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    line-height: 1.4;
+    color: #3A4750;
+  }
+  .image {
+    width: 120%;
+    height:100%;
+    border-radius: 20px;
+
+    
+  }
+  /* .content-card .content-image {
+    
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background: url('../img/unsplashmHrfLhgAbo.jpeg'), linear-gradient(#C4C4C4, #C4C4C4) center;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 50%;
+  } */
+  
+  /* .content-card .text-content {
+    width: 100px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    line-height: 1.4;
+    color: #3A4750;
+  }
+   */
+
+  .content-card .container-2 {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .content-card  .card {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background: #EEEEEE;
+    position: relative;
+    /* margin-bottom: 100px; */
+    display: flex;
+    align-items: center;
+    padding: 30px 0 30px 0;
+    width: 400px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .content-card  .bantu-jutaan-muslim-palestina {
+    margin: 10px 30px ;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0.2px;
+    line-height: 1.4;
+    color: #3A4750;
+  }
+  .content-card  .sampai-dengan-tanpa-batas-waktu {
+    margin: 0 50px 10px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    line-height: 1.4;
+    color: #3A4750;
+    margin-bottom: 15px;
+  }
+  .content-card .line-1 {
+    background: #000000;
+    margin: 0 1.2px 6.5px 0;
+    width: 330px;
+    height: 0.5px;
+    margin-bottom: 15px;
+    
+  }
+  .content-card  .bantuan-sosial-dan-kemanusiaan {
+    position: relative;
+    margin: 0 65px 10px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    line-height: 1.4;
+    color: #3A4750;
+  }
+  .content-card  .dana-terkumpul {
+    margin: 0 0 13px 200px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    line-height: 1.4;
+    color: #3A4750;
+  }
+  .content-card .rp-3293680241 {
+    margin: 0 0 24px 160px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    line-height: 1.4;
+    color: #C50000;
+  }
+  .content-card  .line-2 {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #E70000;
+    position: relative;
+    margin: 0 1.2px 0 0;
+    width: 330px;
+    height: 10px;
+    margin-bottom: 20px;
+  }
+  .content-card .line-3 {
+    background: #C50000;
+    
+    margin: 0 225px 0 0;
+    width: 200px;
+    height: 10px;
+  }
+
+  .content-card  .terkumpul-82-dari-rp-4000000000 {
+    margin: 0 0 30px 40px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    line-height: 1.4;
+    color: #3A4750;
+  }
+  .content-card  .line-4 {
+    background: #000000;
+    margin: 0 1.2px 30px 0;
+    width: 360px;
+    height: 0.5px;
+  }
+  .content-card .bantu-sekarang {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    line-height: 1.4;
+    color: #FFFFFF;
+  }
+  .content-card .button {
+    padding: 15px 100px;
+    background-color: #679266;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+
+  .container-3 {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    
+    /* margin-right: 15%; */
+    box-sizing: border-box;
+    margin-top: 30px;
+    
+    
+  }
+  .group-3 {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background: #EEEEEE;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    width: 360px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    
+  }
+  .wadah-3 {
+    /* margin: 0 0 20px 10px; */
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+    
+  }
+  .card-foto {
+    border-radius: 999px;
+    background: #C50000;
+    /* margin: 30px 22px 5.6px 20px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8.7px 14px 7.8px 14.7px;
+    width: 63px;
+    height: 63px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .foto {
+    width: 34.2px;
+    height: 46.5px;
+  }
+   .wadah-tanggal{
+    /* margin-left: 10px; */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+   .tanggal {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #262626;
+  }
+   .nama-user {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+  }
+  .wadah-deskripsi {
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+  }
+   .deskripsi-donasi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+ 
+  }
+   .uang-donasi {
+    width: 300px;
+    margin-left: 10px;
+  }
+
+
+.footer{
+    background: linear-gradient(90deg, #C50000, #5F0000);
+    color: white;
+}
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color:transparent;
+}
+.preloader .loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font: 14px arial;
+}
